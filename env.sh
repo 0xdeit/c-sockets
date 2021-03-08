@@ -1,0 +1,6 @@
+PS1="\[\033[01;34m\]\w\[\033[00m\]\n\t > "
+alias b="date && ninja -C build"
+alias e="date && ./build/c_socket"
+alias r="date && ninja -C build && ./build/c_socket"
+alias ve="v env.sh"
+alias se="source env.sh"
